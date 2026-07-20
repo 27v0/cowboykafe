@@ -12,7 +12,7 @@ export default function Home() {
         textAlign: "center",
       }}
     >
-      <h1 style={{ fontSize: "2rem", fontWeight: "normal" }}>Coming soon</h1>
+      <h1 style={{ fontSize: "2rem" }}>Coming soon</h1>
       <a
         href="https://www.instagram.com/cowboykafe/"
         target="_blank"
