@@ -12,6 +12,7 @@ const PHONE_TEL = "+905459520755";
 const WHATSAPP_URL = "https://wa.me/905459520755";
 const GOOGLE_REVIEW_URL = "https://g.page/r/CZGidW7sxi2JEBM/review";
 const INSTAGRAM_URL = "https://www.instagram.com/cowboykafe";
+const LOCATION_URL = "https://maps.app.goo.gl/DpfySvW17k9SNbBM8";
 
 const linkStyle: CSSProperties = {
   display: "block",
@@ -56,6 +57,10 @@ export default function QrPage() {
 
       <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" style={linkStyle}>
         WhatsApp Us
+      </a>
+
+      <a href={LOCATION_URL} target="_blank" rel="noopener noreferrer" style={linkStyle}>
+        Location
       </a>
 
       <a
