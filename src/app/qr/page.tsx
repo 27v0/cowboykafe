@@ -79,7 +79,7 @@ export default function QrPage() {
         rel="noopener noreferrer"
         style={linkStyle}
       >
-        Google'da Değerlendirin
+        ★ Google'da Değerlendirin
       </a>
 
       <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" style={linkStyle}>
