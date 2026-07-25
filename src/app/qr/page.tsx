@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import type { CSSProperties } from "react";
 
@@ -43,6 +44,15 @@ export default function QrPage() {
         textAlign: "center",
       }}
     >
+      <Image
+        src="/logo.png"
+        alt="Cowboy Kafe"
+        width={96}
+        height={96}
+        style={{ width: "96px", height: "96px", marginBottom: "0.5rem" }}
+        priority
+      />
+
       <h1 style={{ fontSize: "2rem", marginBottom: "1.5rem" }}>
         Cowboy Kafe
       </h1>
