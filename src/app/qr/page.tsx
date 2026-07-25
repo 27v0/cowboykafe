@@ -3,8 +3,8 @@ import Link from "next/link";
 import type { CSSProperties } from "react";
 
 export const metadata: Metadata = {
-  title: "Cowboy Kafe — Links",
-  description: "Cowboy Kafe quick links",
+  title: "Cowboy Kafe — Bağlantılar",
+  description: "Cowboy Kafe hızlı bağlantılar",
 };
 
 const PHONE_DISPLAY = "0545 952 07 55";
@@ -48,19 +48,19 @@ export default function QrPage() {
       </h1>
 
       <Link href="/reservation" style={{ ...linkStyle, background: "#ffffff", color: "#000000" }}>
-        Make a Reservation
+        Rezervasyon Yap
       </Link>
 
       <a href={`tel:${PHONE_TEL}`} style={linkStyle}>
-        Call Us — {PHONE_DISPLAY}
+        Bizi Arayın — {PHONE_DISPLAY}
       </a>
 
       <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" style={linkStyle}>
-        WhatsApp Us
+        WhatsApp'tan Yazın
       </a>
 
       <a href={LOCATION_URL} target="_blank" rel="noopener noreferrer" style={linkStyle}>
-        Location
+        Konum
       </a>
 
       <a
@@ -69,7 +69,7 @@ export default function QrPage() {
         rel="noopener noreferrer"
         style={linkStyle}
       >
-        Leave a Google Review
+        Google'da Değerlendirin
       </a>
 
       <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" style={linkStyle}>
